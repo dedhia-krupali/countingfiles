@@ -1,0 +1,6 @@
+output: fcount.cpp fdisp.cpp version.h 
+	g++ version.cpp -o version
+	g++ fcount.cpp -o fcountout
+	g++ fdisp.cpp -o fdispout
+
+

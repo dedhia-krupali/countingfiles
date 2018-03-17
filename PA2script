@@ -1,0 +1,18 @@
+Script started on Wed Feb 14 22:49:06 2018
+bash-4.4$ g++ fcount -o fcount[C[C[C[C[C[C[C[C[C[C./fcount /Users/krupalidedhia/Desktop/cs3377/ | xargs ./fdisp -d[C[C[C[C[C[C[C[C[C[Cg++ fcount -o fcount[K[C[C[C[C[C[C[C[C[C[C./fcount /Users/krupalidedhia/Desktop/cs3377/ | xargs ./fdisp -d[C[C[C[C[C[C[C[C[C[C[42Pg++ fdisp.cpp -o fdisp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount.cpp -o fcount
+[1mfcount.cpp:36:5: [0m[0;1;35mwarning: [0m[1m'auto' type specifier is a C++11 extension [-Wc++11-extensions][0m
+    auto dir = opendir(dirToOpen.c_str());
+[0;1;32m    ^
+[0m1 warning generated.
+bash-4.4$ g++ fcount.cpp -o fcount[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./fcount /Users/krupalidedhia/Desktop/cs3377/ | xargs ./fdisp -d[C[C[C[C[C[C[C[C[C[C[42Pg++ fdisp.cpp -o fdisp
+bash-4.4$ g++ fdisp.cpp -o fdisp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount.cpp -o fcount[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./fcount /Users/krupalidedhia/Desktop/cs3377/ | xargs ./fdisp -d[Kf
+The total number of files in directory /Users/krupalidedhia/Desktop/cs3377/ is 74 
+bash-4.4$ ./fcount /Users/krupalidedhia/Desktop/cs3377/ | xargs ./fdisp -f[C[C[C[C[C[C[C[C[C[C[42Pg++ fdisp.cpp -o fdisp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount.cpp -o fcount[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./fcount /Users/krupalidedhia/Desktop/cs3377/ | xargs ./fdisp -d
+The total number of directories in directory /Users/krupalidedhia/Desktop/cs3377/ is 7 
+bash-4.4$ ./fcount /Users/krupalidedhia/Desktop/cs3377/ | xargs ./fdisp -df[C[C[C[C[C[C[C[C[C[C[42Pg++ fdisp.cpp -o fdisp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount.cpp -o fcount[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./fcount /Users/krupalidedhia/Desktop/cs3377/ | xargs ./fdisp -d[Kb
+The total number of bytes occupied by all files in directory /Users/krupalidedhia/Desktop/cs3377/ is 7701788 
+bash-4.4$ ./fcount /Users/krupalidedhia/Desktop/cs3377/ | xargs ./fdisp -b[Kx
+Invalid.
+bash-4.4$ exit
+
+Script done on Wed Feb 14 22:49:54 2018
